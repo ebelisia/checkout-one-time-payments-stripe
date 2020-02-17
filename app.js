@@ -27,8 +27,8 @@ app.post("/create", (req, res, next)=>{
     payment_method_types: ['card'],
     line_items: [{
       name: 'T-shirt',
-      description: 'Comfortable cotton t-shirt',
-      images: ['https://example.com/t-shirt.png'],
+      description: ' Adidas Comfortable cotton t-shirt',
+      images: ['https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/c0b5234b4053469285dea83500d56eda_9366/Camiseta_3_Stripes_Branco_CW1203_01_laydown.jpg'],
       amount: 500,
       currency: 'usd',
       quantity: 1,
